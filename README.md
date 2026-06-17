@@ -1,6 +1,6 @@
 # Technical Portfolio: Molecular Diagnostics & Biotechnology
 Sandra George 
-sandrageorge1988Qgmail.com | 0478904206 | Wyndham Vale, VIC  
+sandrageorge1988gmail.com | 0478904206 | Wyndham Vale, VIC  
 
 ---
 
