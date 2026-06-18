@@ -6,6 +6,7 @@ sandrageorge1988gmail.com | 0478904206 | Wyndham Vale, VIC
 
 ## Executive Summary
 Enthusiastic and detail-oriented Molecular Biotechnology professional holding a Master of Biotechnology. Equipped with strong technical literacy across wetlab sample preparation, high-throughput workflows, and downstream data analysis pipelines. 
+
 ## Portfolio Index
 * [View Case Study: Molecular Diagnostic Pipeline Validation](./README.md)
 * [View Technical Log: Automated Assay Troubleshooting & Calibration](./assay-troubleshooting-log.md)
