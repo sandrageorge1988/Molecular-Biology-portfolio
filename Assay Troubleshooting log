@@ -1,0 +1,21 @@
+# Laboratory Quality Assurance: Assay Troubleshooting & Calibration Log
+ISO 15189 / NATA Compliance
+A technical log documenting independent assessment, error-code troubleshooting, and calibration validation across automated molecular diagnostic platforms.
+
+---
+
+## 1. Automated Run Deviation & Corrective Action Log
+
+Automated Liquid Handler (Library Prep) | Volumetric pipetting error flagged mid-plate; inconsistent reagent distribution in columns 4–6. | Air bubble detection triggered due to suboptimal reagent viscosity at cold storage temperature. | Paused run. Manually primed the dispensing lines. Adjusted system settings to implement a 2-second pre-aspiration delay for high-viscosity master mixes to ensure precise delivery. |
+High-Throughput Sequencer (NGS Run) | Drop in cluster density metrics accompanied by an elevated %Phasing rate early in the sequencing run. | Inaccurate library quantification during the pooling stage due to fluorometer calibration drift. | Aborted the sub-standard run. Recalibrated the Qubit fluorometer using fresh standards. Re-quantified the library pool, adjusted dilution calculations, and successfully re-loaded the flow cell. |
+Droplet Digital PCR (ddPCR / qPCR) | Total droplet count dropped below the strict quality control threshold (<10,000 droplets per well). | Suboptimal emulsion generation caused by a microscopic partial blockage within the microfluidic cartridge channels. | Rejected the affected wells. Cleaned the generator housing block, replaced the disposable cartridge components, and verified droplet consistency via an oil-blank test run. |
+
+---
+
+## 2. Technical Protocol Mastery Note: FFPE Tissue Extraction
+In oncology diagnostics, handling **Formalin-Fixed Paraffin-Embedded (FFPE)** tissue samples introduces major hurdles due to nucleic acid cross-linking and fragmentation.
+
+### My Methodological Approach to Maximizing Yield:
+1. **Deparaffinization:** Executed strict xylene-free clean washes using specialized deparaffinization solutions to ensure complete wax removal without degrading minimal tissue footprints.
+2. **Lysis Optimisation:** Extended the Proteinase K digestion window to 56°C overnight when treating dense or highly cross-linked clinical tissue specimens to maximize structural lysis.
+3. **Purity Verification:** Monitored NanoDrop thresholds specifically for $A_{260}/A_{230}$ ratios, recognizing that residual guanidine salts from purification wash buffers actively inhibit downstream library preparation amplification.
