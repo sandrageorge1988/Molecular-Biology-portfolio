@@ -31,7 +31,7 @@ To simulate a clinical high-throughput diagnostic workflow by extracting nucleic
 * **Sequence Alignment & Alignment Pipelines:** Aligned processed target sample files against reference human genomes ($hg38$) using the **NCBI BLAST** algorithm (BLASTn/BLASTp) to map sequence discrepancies, insertions, and deletions.
 
 ### 3. Variant Annotation & Clinical Interpretation
-* **Database Cross-Referencing:** Cross-referenced mapped variant files against public genomic repositories including **ClinVar**, **cBioPortal**, and the **COSMIC** database.
+* **Database Cross-Referencing:** Cross-referenced mapped variant files against public genomic repositories in **cBioPortal** database.
 * **Pathogenicity Classification:** Annotated identified single nucleotide variants (SNVs) to isolate somatic mutations, classifying functional consequences (e.g., distinguishing silent passenger mutations from pathogenic driver variants).
 
 ### 4. Compliance & Regulatory Mindset
